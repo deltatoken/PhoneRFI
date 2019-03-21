@@ -8,7 +8,7 @@ include 'func.php';
 
 $init = new Bom();
 
-$init->no = ""; //Nomer Hp tujuan
+$init->no = ""; // Destination phone number
 $loop = ""; //Jumlah eksekusi
 for ($i=0; $i < $loop; $i++) { 
     $init->Verif($init->no);
