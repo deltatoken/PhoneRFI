@@ -9,7 +9,7 @@ include 'func.php';
 $init = new Bom();
 
 $init->no = ""; // Destination phone number
-$loop = ""; //Jumlah eksekusi
+$loop = ""; //execuions number
 for ($i=0; $i < $loop; $i++) { 
     $init->Verif($init->no);
 }
